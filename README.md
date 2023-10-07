@@ -9,7 +9,7 @@
 
 ### Disciplina: DCA0305 - PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA
 
-### Docente responsável: Ivanovitch Medeiros Dantas da Silva <a href="https://github.com/ivanovitchm"><img src=https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg></a>
+### Docente responsável: Ivanovitch Medeiros Dantas da Silva <a href="https://github.com/ivanovitchm">![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</a>
 
 
 Repository to store notebooks to degree course DCA0305 - PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA 
