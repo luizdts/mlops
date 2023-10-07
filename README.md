@@ -1,16 +1,16 @@
 # Machine Learning Operations
-### Instituição: Universidade Federal do Rio Grande do Norte - UFRN
 
-### Departamento de Computação e Automação - DCA
+Universidade Federal do Rio Grande do Norte - UFRN
 
-### Graduação em Engenharia de Computação
+Departamento de Computação e Automação - DCA
 
-### Identificação: Luiz Henrique Araújo Dantas
+Graduação em Engenharia de Computação
 
-### Disciplina: DCA0305 - PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA
+Discente: Luiz Henrique Araújo Dantas
 
+DCA0305 - PROJETO DE SISTEMAS BASEADOS EM APRENDIZADO DE MÁQUINA
 
-### Docente responsável: Ivanovitch Medeiros Dantas da Silva    
+Docente responsável: Ivanovitch Medeiros Dantas da Silva    
 <a href="https://github.com/ivanovitchm">![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)</a>
 
 
