@@ -111,6 +111,6 @@ def podcast_summary():
             hook.insert_rows(table='episodes', rows=[[row["link"], transcript]], target_fields=["link", "transcript"], replace=True)
 
     #Uncomment this to try speech to text (may not work)
-    #speech_to_text(audio_files, new_episodes)
+    speech_to_text(audio_files, new_episodes)
 
 summary = podcast_summary()
