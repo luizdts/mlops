@@ -1,0 +1,8 @@
+2023-10-09 04:42:15,844 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 05:03:00,422 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 05:03:00,994 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 05:03:01,266 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 05:03:01,573 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 05:03:01,704 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 05:03:01,933 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 05:03:02,288 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
