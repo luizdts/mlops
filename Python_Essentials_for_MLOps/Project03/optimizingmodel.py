@@ -87,13 +87,19 @@ def is_summer_month(month):
     return 0
 
 fires["summer"] = [is_summer_month(m) for m in fires["month"]]
-
-imp = KNNImputer(missing_values = np.nan, n_neighbors=3)
+try:
+    imp = KNNImputer(missing_values = np.nan, n_neighbors=3)
+    logging.info("Imputed values was successfully created.")
+except ValueError as e:
+    logging.error("An error occurred while creating the imputed values: %s.", e)
 
 fires_missing = fires[fires.columns[5:13]]
 
-imputed = pd.DataFrame(imp.fit_transform(fires_missing),
-                       columns = fires.columns[5:13])
+try:
+    imputed = pd.DataFrame(imp.fit_transform(fires_missing),
+                           columns=fires.columns[5:13])
+except ValueError as e:
+    logging.error("Um erro ocorreu. %s", e)
 
 imputed.boxplot(column=["FFMC", "DMC", "DC", "ISI", "temp", "RH", "wind", "rain"])
 

@@ -1,8 +1,137 @@
-2023-10-09 04:42:15,844 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
-2023-10-09 05:03:00,422 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
-2023-10-09 05:03:00,994 - INFO - Forward-2 Model features: ['FFMC' 'DC']
-2023-10-09 05:03:01,266 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
-2023-10-09 05:03:01,573 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
-2023-10-09 05:03:01,704 - INFO - Backward-2 Model features: ['FFMC' 'DC']
-2023-10-09 05:03:01,933 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
-2023-10-09 05:03:02,288 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+
+2023-10-09 14:32:03,508 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 14:32:03,891 - INFO - Imputed values was successfully created.
+2023-10-09 14:32:04,103 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:32:04,373 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:32:04,724 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:32:04,855 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:32:05,081 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:32:05,442 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:33:34,810 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 14:33:35,193 - INFO - Imputed values was successfully created.
+2023-10-09 14:33:35,413 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:33:35,680 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:33:36,028 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:33:36,200 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:33:36,432 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:33:36,721 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:50:56,091 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 14:50:56,506 - INFO - Imputed values was successfully created.
+2023-10-09 14:50:56,711 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:50:56,967 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:50:57,269 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:50:57,448 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:50:57,714 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:50:57,999 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:51:15,434 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 14:51:15,791 - INFO - Imputed values was successfully created.
+2023-10-09 14:51:15,997 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:51:16,256 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:51:16,628 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:51:16,758 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:51:16,979 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:51:17,266 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:54:35,448 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 14:54:35,848 - INFO - Imputed values was successfully created.
+2023-10-09 14:54:36,062 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:54:36,345 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:54:36,641 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:54:36,767 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:54:36,988 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:54:37,370 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:55:22,643 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 14:55:23,002 - INFO - Imputed values was successfully created.
+2023-10-09 14:55:23,232 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:55:23,497 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:55:23,787 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:55:23,912 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:55:24,178 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:55:24,472 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:56:29,904 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 14:56:30,267 - INFO - Imputed values was successfully created.
+2023-10-09 14:56:30,510 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:56:30,808 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:56:31,108 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 14:56:31,237 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 14:56:31,458 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 14:56:31,789 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:52:50,019 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:52:51,438 - INFO - Imputed values was successfully created.
+2023-10-09 16:52:51,760 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:52:52,035 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:52:52,326 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:52:52,449 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:52:53,008 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:52:53,302 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:55:00,837 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:55:01,316 - INFO - Imputed values was successfully created.
+2023-10-09 16:55:01,533 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:55:01,802 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:55:02,098 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:55:02,228 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:55:02,451 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:55:02,755 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:55:57,094 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:55:57,455 - INFO - Imputed values was successfully created.
+2023-10-09 16:55:57,670 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:55:57,961 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:55:58,287 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:55:58,434 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:55:58,651 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:55:58,938 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:56:37,730 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:56:38,095 - INFO - Imputed values was successfully created.
+2023-10-09 16:56:38,355 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:56:38,638 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:56:38,931 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:56:39,081 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:56:39,304 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:56:39,598 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:57:27,813 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:57:28,219 - INFO - Imputed values was successfully created.
+2023-10-09 16:57:28,436 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:57:28,738 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:57:29,034 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:57:29,193 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:57:29,423 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:57:29,706 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:57:46,037 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:57:46,527 - INFO - Imputed values was successfully created.
+2023-10-09 16:57:46,743 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:57:47,020 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:57:47,319 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:57:47,454 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:57:47,683 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:57:47,974 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:59:03,439 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:59:03,827 - INFO - Imputed values was successfully created.
+2023-10-09 16:59:04,057 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:59:04,338 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:59:04,638 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:59:04,767 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:59:05,000 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:59:05,370 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:59:17,107 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:59:17,478 - INFO - Imputed values was successfully created.
+2023-10-09 16:59:17,746 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:59:18,015 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:59:18,326 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:59:18,454 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:59:18,676 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:59:19,008 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:59:51,116 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-09 16:59:51,474 - INFO - Imputed values was successfully created.
+2023-10-09 16:59:51,700 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:59:51,967 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:59:52,266 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-09 16:59:52,394 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-09 16:59:52,669 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-09 16:59:52,984 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-11 16:34:02,649 - INFO - O arquivo CSV 'fires.csv' foi lido com sucesso.
+2023-10-11 16:34:04,188 - INFO - Imputed values was successfully created.
+2023-10-11 16:34:04,671 - INFO - Forward-2 Model features: ['FFMC' 'DC']
+2023-10-11 16:34:04,943 - INFO - Forward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-11 16:34:05,244 - INFO - Forward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
+2023-10-11 16:34:05,391 - INFO - Backward-2 Model features: ['FFMC' 'DC']
+2023-10-11 16:34:05,614 - INFO - Backward-4 Model features: ['FFMC' 'DC' 'RH' 'wind']
+2023-10-11 16:34:05,907 - INFO - Backward-6 Model features: ['summer' 'FFMC' 'DC' 'ISI' 'RH' 'wind']
