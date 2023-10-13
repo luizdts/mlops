@@ -4,7 +4,7 @@
     DEPARTAMENTO DE COMPUTAÇAO E AUTOMAÇAO
 
     DISCENTE: LUIZ HENRIQUE ARAUJO DANTAS
-    PROJETO 1 - RECOMENDAÇAO DE FILME
+    PROJETO 1 - RECOMENDAÇÃO DE FILMES
 """
 
 import re
@@ -17,7 +17,7 @@ from IPython.display import display
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# https://files.grouplens.org/datasets/movielens/ml-25m.zip
+# Download datasets: https://files.grouplens.org/datasets/movielens/ml-25m.zip
 
 logging.basicConfig(level=logging.INFO)
 logging.basicConfig(filename='error.log',
@@ -29,7 +29,6 @@ try:
     movies = pd.read_csv("movies.csv")
     logging.info("Leitura do arquivo CSV 'movies.csv' concluída com sucesso.")
 except Exception as e:
-
     logging.error("Erro ao ler o arquivo CSV 'movies.csv': %s", e)
     print("Ocorreu um erro ao ler o arquivo CSV 'movies.csv'.")
 
@@ -51,9 +50,9 @@ def clean_title(title):
         Para limpar um título como "Toy Story 1", você pode
         chamar a função da seguinte maneira:
 
-        >>> titulo_limpo = clean_title("Toy Story 1")
+        >>> titulo_limpo = clean_title("Toy Story")
         >>> print(titulo_limpo)
-        "ToyStory1"
+        "ToyStory"
     """
     title = re.sub("[^a-zA-Z0-9 ]", "", title)
     title = title.replace(" ", "")
@@ -188,7 +187,7 @@ rec_percentages["score"] = rec_percentages["similar"] / rec_percentages["all"]
 rec_percentages = rec_percentages.sort_values("score", ascending=False)
 
 # Combina os resultados com as informações dos filmes
-result_local = rec_percentages.head(10).merge(movies, left_index=True, right_on="movieId")
+print(rec_percentages.head(10).merge(movies, left_index=True, right_on="movieId"))
 
 def find_similar_movies(movie_id):
     """
@@ -209,12 +208,6 @@ def find_similar_movies(movie_id):
         DataFrame: Um DataFrame contendo informações sobre os filmes similares,
         incluindo pontuação de similaridade, título e gêneros.
 
-    Exemplo:
-        Para encontrar filmes similares ao filme com o identificador 12345, você
-        pode chamar a função da seguinte maneira:
-
-        >>> resultados = find_similar_movies(12345)
-        >>> print(resultados)
     """
     similar_users_inner = ratings[(ratings["movieId"] == movie_id) &
                              (ratings["rating"] > 4)]["userId"].unique()
@@ -235,7 +228,6 @@ def find_similar_movies(movie_id):
     return rec_percentages_inner.head(10).merge(
         movies, left_index=True, right_on="movieId")[["score", "title", "genres"]]
 
-
 movie_name_input = widgets.Text(
     value='Toy Story',
     description='Movie Title:',
@@ -243,7 +235,7 @@ movie_name_input = widgets.Text(
 )
 recommendation_list = widgets.Output()
 
-def clear_and_display_recommendations(title):
+def on_type(data):
     """
     Limpa a saída atual e exibe recomendações de filmes semelhantes com base em um título.
 
@@ -256,27 +248,13 @@ def clear_and_display_recommendations(title):
     """
     with recommendation_list:
         recommendation_list.clear_output()
+        title = data["new"]
         if len(title) > 5:
             results = search(title)
             if not results.empty:
                 movie_id = results.iloc[0]["movieId"]
                 display(find_similar_movies(movie_id))
 
-def on_movie_name_input_change(change):
-    """
-    Exibe recomendações de filmes semelhantes ao detectar uma mudança no título de entrada.
-
-    Args:
-        change (dict): Um dicionário que geralmente contém o novo título digitado pelo usuário.
-
-    Returns:
-        None: A função não retorna um valor diretamente, mas chama a função
-        'clear_and_display_recommendations' para limpar a saída atual e exibir as
-        recomendações de filmes semelhantes.
-    """
-    title = change.new
-    clear_and_display_recommendations(title)
-
-movie_name_input.observe(on_movie_name_input_change, names='value')
+movie_name_input.observe(on_type, names='value')
 
 display(movie_name_input, recommendation_list)
