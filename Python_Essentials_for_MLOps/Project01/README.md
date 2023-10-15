@@ -76,3 +76,9 @@ A função find_similar_movies busca filmes similares de acordo com a classifica
    ![Saída do resultado do Pylint](./imgs/pylint-projeto1.png)
 3. Saída do resultado dos testes unitários:
    ![Saída do resultado dos testes unitários](./imgs/pytest-projeto1.png)
+
+## Conclusão
+
+A adoção de práticas como DRY, KISS, logging, modularização e testes unitários oferece uma série de benefícios que incluem a redução de erros, melhoria da qualidade do código, facilidade de manutenção, rastreabilidade de eventos e a capacidade de colaborar eficazmente em projetos de desenvolvimento de software. Essas práticas são essenciais para criar software eficiente, robusto e sustentável. 
+
+A aplicação consistente dessas práticas ao longo do ciclo de vida do desenvolvimento de software ajuda a melhorar a eficiência e a qualidade do código, resultando em sistemas mais confiáveis e de fácil manutenção.

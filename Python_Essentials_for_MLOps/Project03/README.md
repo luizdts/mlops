@@ -46,11 +46,17 @@ As imagens abaixo representa como está dividida a estrutura do código, nesse c
 - Modularização: é uma prática que ajuda a tornar o código mais eficiente, legível e fácil de manter, ao mesmo tempo em que promove a reutilização de código e facilita o trabalho em equipe.
 - Testes Unitários:  ajudam a identificar e corrigir erros de forma precoce, melhoram a confiabilidade do código e permitem a refatoração segura. Eles também são uma parte importante das metodologias de desenvolvimento ágil, como o Test-Driven Development (TDD), onde os testes são escritos antes do código de produção.
 
-A
-![Código 1](./imgs/codigo-projeto3.png)
-B
+Este código lida com a leitura de um arquivo CSV, tratando possíveis exceções, e em seguida, realiza a preparação dos dados para a construção de um modelo de regressão linear. A função count_missing_values() realiza a  contagem do número de valores ausentes em uma coluna específica de um DataFrame.
+
 ![Código 2](./imgs/funcoes-projeto3.png)
-C
+
+Esta função cria um modelo de regressão linear com seleção de características
+usando SequentialFeatureSelector da biblioteca scikit-learn. O modelo é treinado para selecionar um número específico de características.
+
+![Código 1](./imgs/codigo-projeto3.png)
+
+O código abaixo está testando diferentes configurações de modelos de regressão linear, variando o número de características selecionadas. A informação registrada no log é útil para acompanhar quais características foram selecionadas para cada modelo, o que pode ser fundamental na análise e interpretação dos resultados de um modelo de regressão linear.
+
 ![Código 3](./imgs/models-projeto3.png)
 
 
@@ -62,3 +68,9 @@ C
    ![Saída do resultado do Pylint](./imgs/pylint-projeto3.png)
 3. Saída do resultado dos testes unitários:
    ![Saída do resultado dos testes unitários](./imgs/pytest-projeto3.png)
+
+## Conclusão
+
+A adoção de práticas como DRY, KISS, logging, modularização e testes unitários oferece uma série de benefícios que incluem a redução de erros, melhoria da qualidade do código, facilidade de manutenção, rastreabilidade de eventos e a capacidade de colaborar eficazmente em projetos de desenvolvimento de software. Essas práticas são essenciais para criar software eficiente, robusto e sustentável. 
+
+A aplicação consistente dessas práticas ao longo do ciclo de vida do desenvolvimento de software ajuda a melhorar a eficiência e a qualidade do código, resultando em sistemas mais confiáveis e de fácil manutenção.

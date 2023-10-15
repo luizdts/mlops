@@ -12,9 +12,11 @@ Os principais pacotes que compõe esse projeto são:
 - Python3.8+
 - Airflow
 - Logging
+- pydub
 - Pylint
 - Pytest
 - virtualenv
+- vosk
 - xmltodict 
 - requests
 
@@ -42,7 +44,7 @@ Os principais pacotes que compõe esse projeto são:
    ```
 6. Crie o ambiente virtual:
    ```
-   python -m venv airflow
+   python3 -m venv airflow
    ```
 7. Acesse o ambiente virtual:
    ```
@@ -62,7 +64,18 @@ Os principais pacotes que compõe esse projeto são:
     Para finalizar o Airflow: Ctrl+C 
     Para finalizar o ambiente virtual: deactivate
     ```
-    
+
+Para criar a conexão com o banco de dados SQLite, utilizamos os seguintes comandos:
+```
+   sudo apt install sqlite3
+   sqlite3 episodes.db
+   .databases
+   .quit
+```
+Em seguida, no ambiente virtual, digite o seguinte comando para que possa ser criada a conexão do SQLite
+```
+   airflow connections add 'podcasts' --conn-type 'sqlite' --conn-host '/home/luiz/episodes.db'
+```
 ## Código
 
 As imagens abaixo representa como está dividida a estrutura do código, nesse código foram aplicadas as seguintes práticas:
@@ -71,11 +84,18 @@ As imagens abaixo representa como está dividida a estrutura do código, nesse c
 - Modularização: é uma prática que ajuda a tornar o código mais eficiente, legível e fácil de manter, ao mesmo tempo em que promove a reutilização de código e facilita o trabalho em equipe.
 - Testes Unitários:  ajudam a identificar e corrigir erros de forma precoce, melhoram a confiabilidade do código e permitem a refatoração segura. Eles também são uma parte importante das metodologias de desenvolvimento ágil, como o Test-Driven Development (TDD), onde os testes são escritos antes do código de produção.
 
-A
+DAGs (Directed Acyclic Graphs) no Airflow são representações de fluxos de trabalho ou tarefas em um ambiente de orquestração de tarefas. Eles são usados para definir a sequência de tarefas a serem executadas, com dependências entre elas, de forma que seja possível agendar, monitorar e gerenciar fluxos de trabalho de forma eficiente. Dessa forma, definimos as Tasks que a DAG irá executar. 
+
+Com isso, no código abaixo, mostramos como está a configuração da DAG, o nome, intervalo de agendamento e o dia de início (alterado para o dia atual), assim devemos criar a tabela que será utilizada no SQLite3 para o próprio Aiflow, assim podemos verificar a partir dos logs se a tabela foi criada ou não.
+
 ![Código 1](./imgs/codigo1-projeto2.png)
-B
+
+A função load_episodes() carrega os novos episódios de um podcast do banco de dados criado no SQLite, caso ele não estejam armazenados, quando existe um novo episódio é criado um novo identificador.
+
 ![Código 2](./imgs/codigo2-projeto2.png)
-C
+
+Essa função realiza o download de episódios de áudio e armazena-os em um diretório específico e o nome dos arquivos baixados no formato MP3.
+
 ![Código 3](./imgs/codigo3-projeto2.png)
 
 
@@ -87,3 +107,9 @@ C
    ![Saída do resultado do Pylint](./imgs/pylint-projeto2.png)
 
 Neste projeto, não foi possível criar testes unitários que possibilitassem verificar a segurança e validação do código.
+
+## Conclusão
+
+A adoção de práticas como DRY, KISS, logging, modularização e testes unitários oferece uma série de benefícios que incluem a redução de erros, melhoria da qualidade do código, facilidade de manutenção, rastreabilidade de eventos e a capacidade de colaborar eficazmente em projetos de desenvolvimento de software. Essas práticas são essenciais para criar software eficiente, robusto e sustentável. 
+
+A aplicação consistente dessas práticas ao longo do ciclo de vida do desenvolvimento de software ajuda a melhorar a eficiência e a qualidade do código, resultando em sistemas mais confiáveis e de fácil manutenção.

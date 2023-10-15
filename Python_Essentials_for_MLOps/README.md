@@ -29,7 +29,8 @@ Repositório dos projetos realizados:
 - Project 03 - [Optimizing Machine Learning Models in Python](https://github.com/luizdts/mlops2023/tree/main/Python_Essentials_for_MLOps/Project03)
 
 Certificado do curso Intermediate Python for Web Development [Link](https://app.dataquest.io/verify_cert/NIZH7IQPJ2XN1MXZ7227/)
-Video [Loom]()
+
+Video [Loom](https://www.loom.com/share/cf65bbc12bd14b82941689ddc54e915a?sid=50359c82-39df-4980-8379-725ec720f7a5)
 
 ## Tecnologias utilizadas 
 
@@ -55,15 +56,6 @@ Para clonar o repositório e ter acesso aos arquivos, pode ser utilizado a segui
 ```bash
 git clone https://github.com/luizdts/mlops2023.git
 ```
-
-## Resultados Obtidos
-
-1. Saída da execução do movie_recommendations.py
-   <imagem do python aqui>
-2. Saída do resultado do Pylint:
-   <imagem do linting aqui>
-3. Saída do resultado dos testes unitários:
-   <imagem do resultado dos testes aqui>
 
 ## Referências: 
 - Transparências do professor Ivanovitch Medeiros

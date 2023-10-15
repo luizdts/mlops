@@ -32,7 +32,7 @@ logging.basicConfig(level=logging.INFO)  # Configura o nível de log conforme ne
 @dag(
     dag_id='podcast_summary',
     schedule_interval="@daily",
-    start_date=pendulum.datetime(2022, 5, 30),
+    start_date=pendulum.datetime(2023, 10, 12),
     catchup=False,
 )
 def podcast_summary():
