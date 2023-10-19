@@ -28,9 +28,10 @@ Repositório dos projetos realizados:
 - Project 02 - [Build an Airflow Data Pipeline to Download Podcasts](https://github.com/luizdts/mlops2023/tree/main/Python_Essentials_for_MLOps/Project02)
 - Project 03 - [Optimizing Machine Learning Models in Python](https://github.com/luizdts/mlops2023/tree/main/Python_Essentials_for_MLOps/Project03)
 
-Certificado do curso Intermediate Python for Web Development [Link](https://app.dataquest.io/verify_cert/NIZH7IQPJ2XN1MXZ7227/)
+Certificado do curso Intermediate Python for Web Development [Link para o certificado](https://app.dataquest.io/view_cert/NIZH7IQPJ2XN1MXZ7227) - [Verificador](https://app.dataquest.io/verify_cert/NIZH7IQPJ2XN1MXZ7227/)
 
-Video [Loom](https://www.loom.com/share/cf65bbc12bd14b82941689ddc54e915a?sid=50359c82-39df-4980-8379-725ec720f7a5)
+
+Video sobre os projetos disponível na plataforma [Loom](https://www.loom.com/share/cf65bbc12bd14b82941689ddc54e915a?sid=50359c82-39df-4980-8379-725ec720f7a5)
 
 ## Tecnologias utilizadas 
 

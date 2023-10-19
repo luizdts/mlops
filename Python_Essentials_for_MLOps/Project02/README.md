@@ -2,8 +2,7 @@
 
 ## Introdução
 
-Para esse projeto, iremos focar em uma aplicação onde utiliza 
-Vamos construir um pipeline de dados em quatro etapas usando o Airflow, que é uma ferramenta popular de engenharia de dados baseada em Python para definir e executar pipelines de dados muito poderosos e flexíveis. O pipeline irá baixar episódios de podcasts. Vamos armazenar nossos resultados em um banco de dados SQLite que podemos consultar facilmente. 
+Para esse projeto, iremos focar em uma aplicação onde construiremos um pipeline de dados em quatro etapas usando o Airflow, que é uma ferramenta popular de engenharia de dados baseada em Python para definir e executar pipelines de dados muito poderosos e flexíveis. O pipeline irá baixar episódios de podcasts. Vamos armazenar nossos resultados em um banco de dados SQLite que podemos consultar facilmente. 
 
 ## Tecnologias Utilizadas
 
